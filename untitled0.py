@@ -7,6 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1_GbMQHufAn_8tLI7vJCUHjhAR81U4DOK
 """
 
+### MEUS TESTES DE ESTUDO ###
+
+
+
 # String nome e Imprimir
 
 nome='Wesley'
@@ -27,4 +31,13 @@ if x > 5:
  x = x * 2
 print(x)
 print('fim')
+
+#Operações Matemáticas
+
+w=1.0
+e=2.0
+s=3.0
+
+media=(w+e+s)/3
+print(media)
 
