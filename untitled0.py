@@ -41,3 +41,68 @@ s=3.0
 media=(w+e+s)/3
 print(media)
 
+#Conceito PEMDAS na linguagem Python
+P Parênteses
+E Exponenciação
+M Multiplicação
+D Divisão
+A Adição
+S Subtração
+
+B = 15 # Base maior (B)
+b = 10 # Base menor (b)
+h = 8 # Altura (h)
+# Calcula a área do Trapézio
+
+area = B + b * h / 2
+print('Área do Trapézio: ', area)
+
+Resultado: Área do Trapézio:  55.0
+
+OBS: De acordo com PEMDAS, o cálculo foi o seguinte b*h/2+B que foi o resultado acima.
+    
+Portanto, para corrigirmos o código, é necessário priorizar a adição B + b, por meio da declaração de parênteses:
+
+area = (B + b) * h / 2
+print('Área do Trapézio: ', area)
+
+Resultado: Área do Trapézio:  100.0
+        
+# Operadores:
+
+> Maior Verdadeiro (True) se o operando da esquerda for
+maior que o operando da direita.
+x > y
+>= Maior ou igual Verdadeiro (True) se o operando da esquerda for
+maior ou igual que o operando da direita.
+x >= y
+< Menor Verdadeiro (True) se o operando da esquerda for
+menor que o operando da direita.
+x < y
+<= Menor ou igual Verdadeiro (True) se o operando da esquerda for
+menor ou igual que o operando da direita.
+x <= y
+== Igual Verdadeiro (True) se os dois operandos são iguais
+(possuem o mesmo valor).
+x == y
+!= Diferente Verdadeiro (True) se os dois operandos são
+diferentes (não possuem o mesmo valor).
+x != y
+        
+Exemplos:
+    
+x = 5
+y = 1
+s = 'palavra'
+print('x > y:', x > (y + 2))
+print('x <= 4.564:', x <= (4.564 + 1))
+print('s == palavra:', s != 'palavra')
+print('(y * 0) == False:', (y * 0) == False)
+print('s != abacaxi:', s != 'abacaxi')
+
+Resultados:
+x > y: True
+x <= 4.564: True
+s == palavra: False
+(y * 0) == False: True
+s != abacaxi: True    
