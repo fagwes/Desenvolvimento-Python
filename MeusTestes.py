@@ -106,3 +106,47 @@ x <= 4.564: True
 s == palavra: False
 (y * 0) == False: True
 s != abacaxi: True    
+
+    
+#OPERAÇÃO DESCRIÇÃO UTILIZAÇÃO
+
+and Conjunção Verdadeiro (True) se, e somente se, os dois
+operandos também forem verdadeiros.
+x and y
+
+or Disjunção Verdadeiro (True) se qualquer um dos dois
+operandos for verdadeiro também.
+x or y
+
+not Complemento
+Inverte o valor do operando (complemento).
+Verdadeiro (True) se o operando for falso. Falso
+(False) se o operando for verdadeiro.
+not x
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+#Teste: Verifica se uma pessoa pode dirigir
+
+# verifica se uma pessoa pode dirigir
+idade = 23
+possui_cnh = False
+print(idade > 18 and possui_cnh)
+
+# verifica se um passageiro pode viajar sozinho
+idade = 15
+possui_autorizacao = True
+print(idade > 18 or possui_autorizacao)
+
+Resultado:
+False
+True
+    
+    
