@@ -9,8 +9,6 @@ Original file is located at
 
 ### MEUS TESTES DE ESTUDO ###
 
-
-
 # String nome e Imprimir
 
 nome='Wesley'
@@ -73,18 +71,23 @@ Resultado: Área do Trapézio:  100.0
 > Maior Verdadeiro (True) se o operando da esquerda for
 maior que o operando da direita.
 x > y
+
 >= Maior ou igual Verdadeiro (True) se o operando da esquerda for
 maior ou igual que o operando da direita.
 x >= y
+
 < Menor Verdadeiro (True) se o operando da esquerda for
 menor que o operando da direita.
 x < y
+
 <= Menor ou igual Verdadeiro (True) se o operando da esquerda for
 menor ou igual que o operando da direita.
 x <= y
+
 == Igual Verdadeiro (True) se os dois operandos são iguais
 (possuem o mesmo valor).
 x == y
+
 != Diferente Verdadeiro (True) se os dois operandos são
 diferentes (não possuem o mesmo valor).
 x != y
@@ -123,16 +126,7 @@ Inverte o valor do operando (complemento).
 Verdadeiro (True) se o operando for falso. Falso
 (False) se o operando for verdadeiro.
 not x
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
 #Teste: Verifica se uma pessoa pode dirigir
 
 # verifica se uma pessoa pode dirigir
@@ -148,5 +142,21 @@ print(idade > 18 or possui_autorizacao)
 Resultado:
 False
 True
-    
-    
+
+
+#Teste: Verifica se atingiu média necessária para passa de ano
+
+#Felipe
+matematica = 5
+portugues = 4
+ingles = 7
+historia = 6
+
+media = (matematica+portugues+ingles+historia)/4
+falta = True
+
+print(media>=5 == falta)
+Resultado:
+False
+
+
