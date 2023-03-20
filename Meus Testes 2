@@ -13,3 +13,6 @@ if media>6 and falta<=5:
 
 else:
   print('Reprovado')
+
+Resultado:
+Reprovado
