@@ -1,18 +1,21 @@
-#Verificar média para passar de ano
+#Verifica nota e falta se foi aprovado ou reprovado
+
+aluno = 'Wesley'
+print('Nome do aluno:',aluno)
 
 nota1 = 10
-nota2 = 10
-nota3 = 8
-nota4 = 5
+nota2 = 8
+nota3 = 10
+nota4 = 4
 
 media = (nota1+nota2+nota3+nota4)/4
-falta = 6
+falta = 2
 
 if media>6 and falta<=5:
   print('Aprovado')
-
 else:
-  print('Reprovado')
+  print('Reprovado')  
 
 Resultado:
-Reprovado
+Nome do aluno: Wesley
+Aprovado
