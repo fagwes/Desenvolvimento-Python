@@ -1,0 +1,14 @@
+#Verificar média para passar de ano
+
+nota1 = 10
+nota2 = 1
+nota3 = 8
+nota4 = 5
+
+media = (nota1+nota2+nota3+nota4)/4
+
+if media>6:
+  print('Aprovado')
+
+else:
+  print('Reprovado')
