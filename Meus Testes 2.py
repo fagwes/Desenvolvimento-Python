@@ -19,3 +19,26 @@ else:
 Resultado:
 Nome do aluno: Wesley
 Aprovado
+
+# Conceito de slicing
+
+palavra = 'consolação'
+# consola
+print(palavra[:7])
+# sol
+print(palavra[3:6])
+# sola
+print(palavra[3:7])
+# ação
+print(palavra[-4:])
+# palavra original
+print(palavra[:])
+
+Resultado:
+consola
+sol
+sola
+ação
+consolação
+
+
