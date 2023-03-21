@@ -41,4 +41,43 @@ sola
 ação
 consolação
 
+#Exemplo 2:
+palavra = 'Wesley' 
+palavra1 = 'Amorim'
+
+print(palavra[0:3])
+print(palavra[3:6])
+print(palavra1[0:3])
+print(palavra1[3:6])
+
+Resultado:
+Wes
+ley
+Amo
+rim
+
+# Concatenação e Repetição:
+
+s1 = 'Wesley'
+s2 = 'Amorim'
+
+# Concatenação (+)
+print(s1 + s2)
+print(s1 + ' ' + s2)
+print(s1 + ' Gomes')
+
+# Repetição
+print(s1 * 5)
+print((s1 + ', ') * 4)
+
+Resultado:
+WesleyAmorim
+Wesley Amorim
+Wesley Gomes
+WesleyWesleyWesleyWesleyWesley
+Wesley, Wesley, Wesley, Wesley, 
+
+
+
+
 
