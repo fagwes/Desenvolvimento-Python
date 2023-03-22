@@ -77,6 +77,14 @@ Wesley Gomes
 WesleyWesleyWesleyWesleyWesley
 Wesley, Wesley, Wesley, Wesley, 
 
+# Contador de digitos
+
+nome = 'Deus seja sempre louvado Amém'
+print(len(nome))
+
+Resultado:
+29  
+  
 
 
 
