@@ -95,7 +95,34 @@ else:
  print('Não habilitado para solicitar aposentadoria!')
 
 Resultado: Não habilitado para solicitar aposentadoria
+
   
+# Verifica se uma pessoa está apta para se aposentar
+idade = 20
+tempo_contrib = 20
+if idade >= 65:
+ print('Habilitado para aposentadoria por idade!')
+else:
+ if tempo_contrib >= 35:
+ print('Habilitado para aposentadoria por tempo de contribuição!')
+ else:
+ print('Não habilitado para solicitar aposentadoria!')  
+  
+Resultado: Não habilitado para solicitar aposentadoria
+  
+# Verifica faixa etária: Criança, Adolescente, Adulto e Idoso
+idade = 22
+if idade < 12:
+ faixa_etaria = 'Criança'
+else:
+ if idade < 18:
+ faixa_etaria = 'Adolescente'
+ else:
+ if idade < 60:
+ faixa_etaria = 'Adulto'
+ else:
+ faixa_etaria = 'Idoso'
+print('Faixa Etária: ', faixa_etaria)
   
 
 
