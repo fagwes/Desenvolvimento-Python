@@ -84,8 +84,18 @@ print(len(nome))
 
 Resultado:
 29  
+
+
+# Verifica se uma pessoa está apta para se aposentar
+idade = 20
+tempo_contrib = 20
+if idade >= 65 or tempo_contrib >= 35:
+ print('Habilitado para solicitar aposentadoria!')
+else:
+ print('Não habilitado para solicitar aposentadoria!')
+
+Resultado: Não habilitado para solicitar aposentadoria
   
-
-
+  
 
 
