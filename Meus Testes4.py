@@ -60,8 +60,35 @@ print('Relação de todos os alunos da escola:')
 print(ALL)
 
 Resultado:
-  Relação de todos os alunos da escola:
+Relação de todos os alunos da escola:
 ['Ana', 'Artur', 'Beatriz', 'Bruna', 'Bruna', 'Bruna', 'Caio', 'Caio', 'Carolina', 'Carolina', 'Flávia', 'Flávia', 'Gabriel', 'Juliano',
 'Juliano', 'Maria', 'Maria', 'Maria', 'Paula', 'Pedro', 'Rubens', 'Rui', 'Rui', 'Tiago']
 
+# Exemplo com desconto
+ING = {'Gabriel', 'Caio', 'Maria', 'Ana', 'Juliano', 'Flávia', 'Rubens', 'Bruna'}
+ESP = {'Caio', 'Artur', 'Beatriz', 'Carolina', 'Maria', 'Juliano', 'Bruna', 'Rui'}
+FRA = {'Pedro', 'Bruna', 'Paula', 'Tiago', 'Maria', 'Flávia', 'Rui', 'Carolina'}
+# 1 – Interseção entre os pares de turmas: (ING & ESP), (ING & FRA) e (ESP & FRA)
+# 2 – Calcula a união das interseções
+ALUNOS_DESCONTO = (ING & ESP) | (ING & FRA) | (ESP & FRA)
+# Exibição do resultado
+print('Relação de dos alunos com desconto:')
+print(ALUNOS_DESCONTO)
 
+Resultado:
+Relação de todos os alunos da escola:
+{'Rui', 'Juliano', 'Bruna', 'Flávia', 'Maria', 'Carolina', 'Caio'}
+  
+# Método Dicionário
+# Criação dos dicionários
+d1 = {2: 'dois', 1: 'um', 4: 'quatro', 3: 'três', 0: 'zero'}
+d2 = {'nome': 'Antônio', 'idade': 36, 'sexo': 'masculino'}
+# Acesso aos elementos
+print(d1[0])
+print(d1[2])
+print(f'Meu nome é {d2["nome"]} e tenho {d2["idade"]} anos')
+
+resultado:
+zero
+dois
+Meu nome é Antônio e tenho 36 anos
